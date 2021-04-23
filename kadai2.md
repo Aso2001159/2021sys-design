@@ -1,4 +1,5 @@
 ```uml
+
 @staruml
 start
 お客 -> ホール係: 注文
@@ -7,4 +8,5 @@ start
 ホール係 -> お客: 注文した料理
 stop
 @enduml
+
 ```
