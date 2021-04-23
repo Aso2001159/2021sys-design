@@ -9,4 +9,4 @@ start
 stop
 @enduml
 
-```
+'''
