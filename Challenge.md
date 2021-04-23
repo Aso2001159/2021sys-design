@@ -5,7 +5,7 @@ start
 if(wether == 0)then(true)
   :快晴です; 
   stop
-else(false)if(wether == 1) then(true)
+elseif(wether == 1) then(true)
   :曇りです;
   stop
 elseif(wether == 2) then(true)
