@@ -7,4 +7,4 @@ start
 ホール係 -> お客: 注文した料理
 stop
 @enduml
-
+```
