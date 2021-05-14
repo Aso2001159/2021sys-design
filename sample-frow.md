@@ -1,6 +1,5 @@
 @startuml
   ユーザー -> webサーバー : 登録情報
-  note left : 登録情報
   webサーバー -> DB : 登録情報検索
   DB -> DB : 検索処理
   DB -> webサーバー : 結果出力
