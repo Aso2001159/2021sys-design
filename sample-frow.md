@@ -2,6 +2,7 @@
 
 @startuml
   ユーザー -> webサーバー : 登録情報
+  note left : 登録情報
   webサーバー -> DB : 登録情報
   DB -> DB : 入力処理
   DB -> webサーバー : 結果出力
@@ -12,5 +13,7 @@
   webサーバー -> ユーザー : エラーを出力
   end
 @enduml
+
+
 
 ```
