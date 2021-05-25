@@ -19,7 +19,7 @@ state 購入画面{
 state アカウント登録{
 [*]-> 登録 
   トップページ-up-> 登録 :アカウントを登録をクリック
-  登録 : do/name,email,id,pass,addressを入力
+  登録 : entry/name,email,id,pass,addressを入力
   登録 ->登録情報確認: アカウント作成をクリック
   登録情報確認 -> 登録完了: はいをクリック
     登録完了: do/アカウント作成
