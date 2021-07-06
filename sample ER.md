@@ -56,7 +56,7 @@ entity "商品テーブル" as items <m_items><<M,MASTER_MARK_COLOR>>{
 --
 item_name
 price
-category_id[FK]
+# category_id[FK]
 image
 detail
 del_flag
@@ -76,7 +76,7 @@ entity "購入テーブル詳細" as purchase_detail<d_purchase_detail><<T,TRANS
 + detail_id[PK]
 + order_id[PK]
 --
-item_code
+# item_code[FK]
 price
 num
 }
