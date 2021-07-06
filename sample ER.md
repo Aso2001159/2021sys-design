@@ -74,16 +74,18 @@ total_price
 
 entity "購入テーブル詳細" as purchase_detail<d_purchase_detail><<T,TRANSACTION_MARK_COLOR>>{
 + detail_id[PK]
++ order_id[PK]
 --
-order_id[FK]
 item_code
 price
 num
 }
 
+customer|o-o{purchase
+purchase||-|{purchase_detail
+purchase_detail}-do-||items
+category||-o{items
+
   }
-
-
-
 @enduml
 ```
