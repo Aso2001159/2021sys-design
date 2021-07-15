@@ -19,4 +19,4 @@
 |10|チェス盤|リンク|クリック|遷移,検索結果ページ|goods:goodsid,goodsname,goodsamount,category|
 |11|商品サムネイル|画像,リンク|クリック|遷移,商品詳細ページ|goods:goodsid,goodsname,goodsamount,category|
 |12|商品名|リンク|クリック|遷移,商品詳細ページ|goods:goodsid,goodsname,goodsamount,category|
-|13|金額|テキスト|-|-|-|
+|13|金額|テキスト|-|-|goods:AmountofGoods|
