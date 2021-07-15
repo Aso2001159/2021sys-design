@@ -22,16 +22,16 @@
 |メールアドレス|mail|varchar(254)||◯||/*RFC5321 4.5.3で規定されている。*/
 |パスワード|pass|varchar(32)||◯||
 |住所|address|varchar(128)||◯||
-
+|カートID|cartid|int(5)||◯|◯|
 
 
 ### cart(カートの中テーブル)
 |和名|属性名(カラム名)|型|PK|NN|FK|
 |---|---|---|---|---|---|
+|カートID|cartid|int(5)|◯|◯||
 |グッズID|goodsid|int(10)||◯|◯|
 |カート内グッズの数|cartquantity|int(2)||◯||
-|ユーザーid|userid|carchar(64)|??|◯|◯|
-|||||||
+|ユーザーid|userid|carchar(64)||◯|◯|
 |||||||
 
 
