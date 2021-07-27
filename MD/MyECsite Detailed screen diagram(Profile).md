@@ -19,8 +19,8 @@
 |10|チェス盤|リンク|クリック|遷移,検索結果ページ|goods:goodsid,goodsname,goodsamount,category|
 |11|商品サムネイル|画像,リンク|クリック|遷移,商品詳細ページ|goods:goodsid,goodsname,goodsamount,category|
 |12|プロフィール|ボタン|クリック|遷移,プロフィールページ|user:username,userid,mail,pass,address|
-|13|プロフィールを変更する|ボタン|クリック|遷移,プロフィール変更ページ|??|
-|14|退会する|ボタン|クリック|ポップアップ,警告||user:userid,username,mail,pass,address|
+|13|プロフィールを変更する|ボタン|クリック|遷移,プロフィール変更ページ|user:userid,username,mail,pass,address|
+|14|退会する|ボタン|クリック|ポップアップ,警告|user:userid,username,mail,pass,address|
 |15||||||
 |16||||||
 |17||||||
