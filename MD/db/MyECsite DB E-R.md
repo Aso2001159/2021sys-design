@@ -19,6 +19,7 @@ username varchar(64)
 mail varchar(254)
 pass varchar(32)
 address varchar(128)
+postalcode char(8)
 +cartid int(5)[FK]
 }
 
