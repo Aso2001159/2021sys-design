@@ -22,6 +22,7 @@
 |メールアドレス|mail|varchar(254)||◯||/*RFC5321 4.5.3で規定されている。*/
 |パスワード|pass|varchar(32)||◯||
 |住所|address|varchar(128)||◯||
+|郵便番号|postalcode|char(8)||◯||
 |カートID|cartid|int(5)||◯|◯|
 
 
