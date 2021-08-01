@@ -9,14 +9,14 @@
 |---|---|---|---|---|---|
 |1|バナー|サイト名表示|クリック|遷移,トップページ|-|
 |2|検索バナー|入力欄|テキスト入力|-|-|
-|3|検索ボタン|ボタン|クリック|遷移,検索結果ページ|goods:goodsid,goodsname,goodsamount,category|
+|3|検索ボタン|ボタン|クリック|遷移,検索結果ページ|goods:goodsid,goodsname,goodsamount,category,goodsimage|
 |4|プロフィールアイコン|ボタン(?)|クリック|遷移,プロフィールページ|user:userid,username,mail,pass,address|
 |5|アカウント登録|ボタン|クリック|遷移,アカウント登録ページ|user:userid,username,mail,pass,address|
 |6|ログイン|ボタン|クリック|遷移,ログインページ|user:mail,pass|
 |7|カート|ボタン|クリック|遷移,カート内ページ|cart:cartquantity goods:id user:userid|
-|8|チェスセット|リンク|クリック|遷移,検索結果ページ|goods:goodsid,goodsname,goodsamount,category|
-|9|チェス駒|リンク|クリック|遷移,検索結果ページ|goods:goodsid,goodsname,goodsamount,category|
-|10|チェス盤|リンク|クリック|遷移,検索結果ページ|goods:goodsid,goodsname,goodsamount,category|
+|8|チェスセット|リンク|クリック|遷移,検索結果ページ|goods:goodsid,goodsname,goodsamount,category,goodsimage|
+|9|チェス駒|リンク|クリック|遷移,検索結果ページ|goods:goodsid,goodsname,goodsamount,category,goodsimage|
+|10|チェス盤|リンク|クリック|遷移,検索結果ページ|goods:goodsid,goodsname,goodsamount,category,goodsimage|
 |11|商品サムネイル|-|-|-|goods:goodsimage|
 |12|商品名|テキスト|クリック|遷移,商品詳細ページ|goods:goodsname|
 |13|商品価格|テキスト|-|-|goods:AmountofGoods|
