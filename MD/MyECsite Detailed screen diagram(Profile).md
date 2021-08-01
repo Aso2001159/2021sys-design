@@ -1,5 +1,5 @@
 ### 画面詳細図
-# ログインページ
+# プロフィールページ
 ### [プロトタイプURL](https://www.figma.com/proto/mLtKn6PWgLvXVqKqVRbDCl/My-ECsite-Prototype?node-id=1%3A2&scaling=contain&page-id=0%3A1)
 <img src="../img/プロフィール.png" width="500">
 
